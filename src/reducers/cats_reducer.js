@@ -5,6 +5,7 @@ export default (state = [], action) => {
     case 'LOADING_CATS':
       //const pet = Object.assign({}, action.pet, { id: state.length + 1} );
       //return [ ...state, pet ];
+      return state;
     default:
       return state;
   }
