@@ -10,9 +10,9 @@ export function fetchCats() {
   };
 }
 
-export function addPet(pet){
+export function loadingCats(){
   return {
-    type: 'ADD_PET',
-    pet
+    type: 'LOADING_CATS',
+    {}
   };
 };
