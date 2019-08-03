@@ -2,12 +2,12 @@ import React, { Component } from 'react';
 import {Navbar} from 'react-bootstrap';
 import { connect } from 'react-redux';
 
-class App extends Component {   
+class App extends Component {
 
   componentDidMount() {
     this.props.fetchCats();
   }
-  
+
   render() {
     return (
       <div className="App">
@@ -30,4 +30,3 @@ const mapStateToProps = state => {
 }
 
 export default connect(mapStateToProps, { fetchCats })(App);
-
